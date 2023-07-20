@@ -1,0 +1,16 @@
+#Wed Jul 19 04:10:36 GMT 2023
+micronaut:
+  application:
+    name: simpleaad
+netty:
+  default:
+    allocator:
+      max-order: 3
+redis:
+  host: <FQDN for redis cache. Protocol such as "rediss" should not be included.>
+  port: 6380
+  ssl: true
+  timeout: 30s
+  io-thread-pool-size: 5
+  computation-thread-pool-size: 4
+  client-name: logicojp-redis
